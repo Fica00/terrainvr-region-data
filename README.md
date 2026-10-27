@@ -10,7 +10,8 @@ Each release is named after the tile format version that app builds read, so an 
 
 | Release | Read by | Data version | Notes |
 |---|---|---|---|
-| `region-v7` | app builds w27 and later | 2026-10-27-tree-kinds | Nine tree kinds by altitude band and forest type, a colour tint per tree, per-town roof colours. 1.92 GB zipped in 6 parts, 2.37 GB unpacked |
+| `region-v8` | app builds w28 and later | 2026-10-28-w28 | Door stairs reach the ground: 18 cm risers counted from the ground under each tread, turning along the wall when a straight flight would need more than 14 steps. Trees as in v7. 2.03 GB zipped in 6 parts, 2.57 GB unpacked |
+| `region-v7` | app builds w27 | 2026-10-27-tree-kinds | Nine tree kinds by altitude band and forest type, a colour tint per tree, per-town roof colours. 1.92 GB zipped in 6 parts, 2.37 GB unpacked |
 | `region-v6` | app builds w25 and w26 | 2026-10-27-draped-lakes | Lake surfaces follow the shore and the ground inside each lake, a landing and a deep stair base at every door. 1.74 GB zipped, 2.18 GB unpacked |
 | `region-v5` | app builds w24 | 2026-10-27 | First release. 1.73 GB zipped, 2.14 GB unpacked |
 
