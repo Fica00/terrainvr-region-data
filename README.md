@@ -4,12 +4,21 @@ Data pack for the Terrain VR app (Meta Quest): 3D trees, buildings, rivers and l
 
 The app downloads this pack by itself on first start. This repository holds only the data, not the app.
 
-## Release `region-v5`
+## Releases
+
+Each release is named after the tile format version that app builds read, so an app only downloads tiles it can read.
+
+| Release | Read by | Data version | Notes |
+|---|---|---|---|
+| `region-v6` | app builds w25 and later | 2026-10-27-draped-lakes | Lake surfaces follow the shore and the ground inside each lake, a landing and a deep stair base at every door. 1.74 GB zipped, 2.18 GB unpacked |
+| `region-v5` | app builds w24 | 2026-10-27 | First release. 1.73 GB zipped, 2.14 GB unpacked |
+
+Each release has:
 
 | File | Contents |
 |---|---|
-| `manifest.json` | Data version, tile format version (5), every part with its size and SHA-256, and every file with its size and SHA-256 |
-| `region-v5-part1.zip` … `region-v5-part5.zip` | The tiles (`tile_<c>_<r>.rtl`), `index.json` and `lakes.json`, about 1.7 GB zipped, 2.1 GB unpacked |
+| `manifest.json` | Data version, tile format version, every part with its size and SHA-256, and every file with its size and SHA-256 |
+| `region-v<N>-part1.zip` … `part5.zip` | The tiles (`tile_<c>_<r>.rtl`), `index.json` and `lakes.json` |
 
 To install by hand instead (developer mode and adb), unzip all parts into one folder and copy it to the headset:
 
